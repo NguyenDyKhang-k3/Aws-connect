@@ -1,0 +1,40 @@
+
+#main-container #task-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main-container #task-wrapper .task-count{
+    text-align: center;
+    height: 34px;
+  }
+
+  #main-container #task-wrapper .task-count b{
+  font-weight: 700;
+}
+
+#main-container #task-wrapper button{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.74);
+    background: white;
+    height: 36px;
+    width: 260px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#main-container #task-wrapper button svg{
+    margin-right: 12px;
+}
+  
+#main-container #task-wrapper #main-icon{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: grid;
+  place-items: center;
+}
+

@@ -1,0 +1,69 @@
+#incomingOutbound-nav{
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 0px 10px;
+}
+
+#incomingOutbound-nav p{
+    color: white;
+}
+
+#incomingOutbound-nav > div:first-child > div:last-child{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+#incomingOutbound-nav > div:first-child > div:last-child svg{
+    margin-right: 5px;
+}
+
+#incomingOutbound-nav #state-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#incomingOutbound-btn{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+
+
+#incomingOutbound-btn button{
+    width: 131px;
+    height: 36px;
+    border: none;
+    color: white;
+    font-weight: 600px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+}
+
+#incomingOutbound-btn > button:first-child{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#incomingOutbound-btn > button:last-child{
+    background-color: rgb(208, 2, 27);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

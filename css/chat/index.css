@@ -1,0 +1,25 @@
+
+#main-container #chat-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main-container #chat-wrapper .chat-count{
+  text-align: center;
+  height: 34px;
+}
+
+#main-container #chat-wrapper .chat-count b{
+  font-weight: 700;
+}
+
+  
+#main-container #chat-wrapper #main-icon{
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: grid;
+  place-items: center;
+}
+

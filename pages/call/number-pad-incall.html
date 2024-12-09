@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Softphone</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/components/feature-btn.css" />
+    <link rel="stylesheet" href="/css/components/phone-form.css" />
+    <link rel="stylesheet" href="/css/call/number-pad.css" />
+  </head>
+  <body>
+    <div id="phone-section">
+      <div id="phone-label">
+        <p>Number pad</p>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 13 13"
+            role="img"
+            width="18px"
+            height="18px"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M13 1.3 11.7 0 6.5 5.2 1.3 0 0 1.3l5.2 5.2L0 11.7 1.3 13l5.2-5.2 5.2 5.2 1.3-1.3-5.2-5.2z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <!-- <div id="phone-form">
+        <div>
+          <div id="phone-input">
+            <div>
+              <input type="text" placeholder="Enter a phone number" />
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div id="number-pad">
+      <div class="pad-row">
+        <button class="first-col">1</button>
+        <button class="second-col">
+          <div>2</div>
+          <div class="char">ABC</div>
+        </button>
+        <button class="third-col">
+          <div>3</div>
+          <div class="char">DEF</div>
+        </button>
+      </div>
+      <div class="pad-row">
+        <button class="first-col">
+          <div>4</div>
+          <div class="char">GHI</div>
+        </button>
+        <button class="second-col">
+          <div>5</div>
+          <div class="char">JKL</div>
+        </button>
+        <button class="third-col">
+          <div>6</div>
+          <div class="char">MNO</div>
+        </button>
+      </div>
+      <div class="pad-row">
+        <button class="first-col">
+          <div>7</div>
+          <div class="char">PQRS</div>
+        </button>
+        <button class="second-col">
+          <div>8</div>
+          <div class="char">TUV</div>
+        </button>
+        <button class="third-col">
+          <div>9</div>
+          <div class="char">WXYZ</div>
+        </button>
+      </div>
+      <div class="pad-row">
+        <button class="first-col last-row" id="star"><p>*</p></button>
+        <button class="second-col last-row">
+          <div>0</div>
+          <div id="plus">+</div>
+        </button>
+        <button class="third-col last-row" id="hashtag"><p>#</p></button>
+      </div>
+    </div>
+    <div id="feature-btn">
+      <button id="change-feature">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 14 18"
+          role="img"
+          width="18px"
+          height="18px"
+          aria-hidden="true"
+        >
+          <path
+            fill="#444"
+            fill-rule="evenodd"
+            d="M12.6 0H1.4v1.44h11.2V0zM1.4 17.3h11.2v-1.45H1.4v1.44zM12.6 2.87H1.4c-.77 0-1.4.65-1.4 1.44v8.65c0 .8.63 1.44 1.4 1.44h11.2c.77 0 1.4-.65 1.4-1.44V4.32c0-.79-.63-1.44-1.4-1.44zM7 4.86c.87 0 1.57.73 1.57 1.63 0 .89-.7 1.62-1.57 1.62a1.6 1.6 0 0 1-1.58-1.62c0-.9.71-1.63 1.58-1.63zm3.5 7.39h-7v-1.08c0-1.2 2.33-1.8 3.5-1.8s3.5.6 3.5 1.8v1.08z"
+          ></path>
+        </svg>
+        Quick connects
+      </button>
+      <button id="call-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 0 17 17"
+          role="img"
+          width="15px"
+          height="15px"
+          aria-hidden="true"
+        >
+          <path
+            fill-rule="evenodd"
+            d="m9.633 13.6 2.078-2.078c.283-.283.661-.378.945-.189 1.038.378 2.172.567 3.4.567.566 0 .944.378.944.944v3.212c0 .566-.378.944-.944.944C7.178 17 0 9.822 0 .944 0 .378.378 0 .944 0H4.25c.567 0 .944.378.944.944 0 1.134.19 2.267.567 3.4.095.284 0 .662-.189.945L3.4 7.367c1.322 2.644 3.589 4.816 6.233 6.233z"
+          ></path>
+        </svg>
+        Call
+      </button>
+    </div>
+  </body>
+  <script type="module" src="/scripts/my-js/main.js"></script>
+</html>

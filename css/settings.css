@@ -1,0 +1,279 @@
+
+/* --------------------------------Setting--------------------------------- */
+
+
+#settings{
+  padding: 0px 14px 0px 14px;
+  width: 100%;
+}
+
+#settings #title{
+  padding: 14px 0px 14px 0px;
+}
+
+#settings h1{
+  line-height: 23.4px;
+  letter-spacing: 0.3px;
+  font-size: 1.125rem;
+}
+
+#settings legend{
+  padding: 5px 0px 14px 0px;
+}
+
+#settings label{
+  padding-bottom: 8px;
+}
+
+#settings .wrapper-option{
+  display: flex;
+}
+
+#settings #settings-main{
+  font-size: 1rem;
+  font-weight: 400px;
+  letter-spacing: 0.3px;
+  width: 100%;
+}
+
+/* --------------------------------------Settings Phone Choose section- */
+
+#settings #dropdown-btn{
+  cursor: pointer;
+  border-width: 0px;
+}
+
+#settings #dropdown-btn div{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+
+#settings #dropdown-btn div img{
+  width: 20px;
+  height: 13px;
+}
+
+#settings #dropdown-btn div div svg{
+  margin: 7px 5px 5px 5px;
+}
+
+#settings #phone-input div input
+{
+  margin: 7px 5px 5px 5px;
+  border: none;
+  font-size: 14px;
+  height: fit-content;
+  background: none;
+}
+
+
+#settings #phone-form input[type="radio"]:checked {
+  background-color: rgb(23, 105, 221); /* Set background color to blue when checked */
+  border: none;
+}
+
+#settings #phone-form input[type="text"]:valid{
+  border: none;
+  outline: none;
+}
+
+
+#settings #phone-form{
+  padding-left: 30px;
+  margin-bottom: 26px;
+  display: none;
+}
+
+#settings #phone-form > div:first-child{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 365px;
+  height: fit-content;
+}
+
+#settings #country-code{
+  width: 53px;
+  height: 53px;
+  margin-right: 12px;
+  position: relative;
+
+}
+
+#settings #phone-input{
+  width: 300px;
+  height: 53px;
+}
+
+
+/* --------------------------------------Settings Phone dropdown options- */
+
+#settings #dropdown-options{
+  position: absolute;
+  top: 105%;
+  display: none;
+  z-index: 1;
+}
+
+#settings #dropdown-options ul{
+  width: 368px;
+  height: 228px;
+  overflow-y: scroll;
+}
+
+#settings #dropdown-options li{
+  display: flex;
+  direction: none;
+  width: 353px;
+  height: 46px;
+  padding: 14px 18px 14px 18px;
+  align-items: center;
+  cursor: pointer;
+  background-color: white
+}
+
+#settings #dropdown-options li:hover{
+  background-color: rgb(71, 89, 110);
+  color: white;
+}
+#settings #dropdown-options li .country, .country-code{
+  padding-left: 12px;
+}
+
+/* --------------------------------------Settings Language dropdown options- */
+#language-dropdown-btn {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  height: 34px;
+  padding: 0px 14px 0px 14px;
+  cursor: pointer;
+  position: relative;
+  width: 400px;
+}
+#language-dropdown-btn > div:first-child{
+  display: flex;
+  height: 18px;
+  
+}
+#language{
+  width: 95%;
+  text-align: start;
+}
+
+#language-dropdown-icon{
+  width: fit-content;
+}
+
+.language-dropdown-options{
+  width: 400px;
+}
+
+.language-dropdown-options ul{
+  width: 100%;
+  height: 275px;
+  overflow-y: scroll;
+
+}
+.language-dropdown-options li{
+  list-style: none;
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 14px 18px 14px 18px;
+  background-color: white;
+  cursor: pointer;
+
+}
+.language-dropdown-options ul li:hover{
+  background-color: rgb(71, 89, 110);
+  color: white;
+}
+
+.language-dropdown-options{
+  position: absolute;
+  display: none;
+
+}
+
+/* --------------------------------------Settings Footer */
+
+/* -----------------------------------ROW1 */
+
+#footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+
+#footer-row1{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 14px 10px 14px;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+#cancel-btn{
+  border: 1px solid black;
+  padding: 0px 15px 0px 15px;
+  margin-right: 6px;
+  width: 71px;
+  height: 28px;
+  cursor: pointer;
+}
+
+#save-btn{
+  background-color: rgb(7, 115, 152);
+  color: white;
+  border: none;
+  padding: 0px 15px 0px 15px;
+  width: 71px;
+  height: 28px;
+  cursor: pointer;
+
+}
+
+/* -----------------------------------ROW2*/
+#footer-row2{
+  padding: 10px 14px 10px 14px;
+  height: 67px;
+}
+
+#footer-row2 > a:first-child{
+  padding-bottom: 0.625rem;
+  height: 28px;
+
+}
+
+#footer-row2 a{
+  text-decoration: none;
+  color: rgb(17, 102, 187);
+}
+
+
+/* -------------------------------RESPONSIVE--  */
+
+@media screen and (max-width:576px){
+  #phone-form > div:first-child, #dropdown-options ul{
+    width: 81.5vw;
+  }
+
+  #dropdown-options ul li{
+    width: 100%;
+  }
+
+  .language-dropdown-options, #language-dropdown-btn{
+    width: 90vw;
+  }
+
+  #phone-input{
+    height: fit-content;
+  }
+
+}

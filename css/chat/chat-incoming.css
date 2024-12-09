@@ -1,0 +1,87 @@
+#chat-incoming-nav{
+    padding: 4px 6px 0px 6px;
+}
+
+#chat-incoming-nav #wrapper{
+    position: relative;
+    height: 60px;
+    background-color: green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+}
+
+#chat-incoming-nav #wrapper div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+}
+
+
+
+#chat-incoming-nav #wrapper > div:last-child p{
+    margin-right: 10px;
+}
+
+
+#chat-incoming-nav #wrapper div p{
+    color: white;
+    padding: 5px 0px 0px 5px;
+    font-size: 14px;
+
+}
+
+#chat-incoming-nav #wrapper > p:last-child{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 10px;
+}
+
+
+/* --------------------------------BUTTON */
+
+#chat-incoming-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(102, 102, 102);
+}
+
+
+#chat-incoming-btn button {
+    width: 132px;
+    height: 36px;
+    border: none;
+    color: white;
+    font-weight: 600px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chat-incoming-btn button svg{
+    margin-right: 12px;
+}
+
+#chat-incoming-btn > button:first-child{
+    background-color: green;
+}
+
+#chat-incoming-btn > button:last-child{
+    background-color: red;
+}
+

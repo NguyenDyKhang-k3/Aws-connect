@@ -1,0 +1,104 @@
+/* ---------------------------------------------Nav */
+
+#hold-nav{
+    height: 51px;
+    background-color: #D04901;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hold-nav p{
+    color: white;
+}
+
+#hold-nav > div:first-child p{
+    padding: 5px 0px 0px 10px;
+}
+
+#hold-nav #state-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* --------------------------------End Call button */
+#hold-btn{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hold-btn #end-call{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hold-btn #end-call svg{
+    margin-right: 12px;
+}
+
+/* -------------------------------------FEATURE */
+
+#hold-feature{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 460px;
+}
+
+#hold-feature > div:first-child{
+    display: flex;
+}
+
+#hold-feature button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hold-feature button svg{
+    margin-right: 12px;
+}
+
+#hold-feature #hold{
+    margin-right: 10%;
+}
+
+#hold-feature #hold, #hold-feature #mute{
+    width: 45%;
+    height: 36px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#hold-feature #mute:hover{
+    cursor: not-allowed;
+}
+
+#hold-feature #pad, #hold-feature #q-connect, #hold-feature #c-task{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+/* ------------------------------RESPONSIVE */
+@media screen and (max-width: 576px){
+    #hold-feature{
+        width: 90%;
+    }
+
+}
+

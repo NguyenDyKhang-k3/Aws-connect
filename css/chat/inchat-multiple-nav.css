@@ -1,0 +1,85 @@
+/* --------------------------------------IN CHAT MULTIPLE NAV */
+
+#inchat-multiple-nav{
+    padding: 4px 6px 0px 6px;
+    width: 100%;
+}
+
+#inchat-multiple-nav #wrapper{
+    position: relative;
+    border-bottom: 1px solid #077398;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#inchat-multiple-nav #wrapper button{
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    height: 45px;
+    width: 148px;
+}
+
+#inchat-multiple-nav #wrapper #active-btn:hover{
+    background-color: #004A75;
+}
+
+#inchat-multiple-nav #wrapper #active-btn{
+    background-color: #077398;
+    color: white;
+
+}
+
+
+#inchat-multiple-nav #wrapper #inactive-btn:hover{
+    background-color: #389AD6;
+}
+
+#inchat-multiple-nav #wrapper #inactive-btn{
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
+
+
+
+#inchat-multiple-nav #wrapper #first-row,
+#inchat-multiple-nav #wrapper #second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#inchat-multiple-nav #wrapper #first-row div,
+#inchat-multiple-nav #wrapper #second-row div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17px;
+}
+
+#inchat-multiple-nav #wrapper #second-row{
+    margin-top: 2px;
+}
+
+#inchat-multiple-nav #wrapper #second-row > div:first-child > div:first-child{
+    margin-right: 10px;
+}
+
+
+#inchat-multiple-nav #wrapper #first-row > div:last-child p{
+    margin-right: 10px;
+}
+
+
+#inchat-multiple-nav #wrapper #first-row div p,
+#inchat-multiple-nav #wrapper #second-row div p{
+    padding: 5px 0px 0px 5px;
+    font-size: 14px;
+
+}
+
+#inchat-multiple-nav #wrapper #first-row > p:last-child{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}

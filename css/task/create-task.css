@@ -1,0 +1,335 @@
+
+/* --------------------FORM ----------------------*/
+
+#wrapper > div:first-child{
+    font-size: 1.125em;
+    font-weight: 400;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+#wrapper > div:first-child button{
+    border: none;
+    cursor: pointer;
+}
+
+
+#wrapper form{
+    width: 400px;
+    padding: 0px 18px 0px 18px;
+}
+
+
+#wrapper form label{
+    border-bottom: 1px solid black;
+    height: 51px;
+}
+
+#wrapper form label > p{
+    font-weight: 600;
+}
+
+#wrapper form label input{
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+}
+#wrapper form label input:valid{
+    outline: none;
+}
+
+/* -------------------TASK NAME AND DESCRIPTION -------------*/
+
+#wrapper form #description label > p,
+#wrapper form #task-name label > p{
+    font-size: 0.8125em;
+}
+
+
+#wrapper form #description > span,
+#wrapper form #task-name > span{
+    width: 100%;
+    font-size: 0.8125em;
+    padding-top: 2px;
+}
+
+
+/* ---------TASK NAME */
+
+#wrapper form #task-name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+/* -----------DESCRIPTION */
+
+
+#wrapper form #description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+#wrapper form #task-name label > p{
+    font-size: 0.8125em;
+
+}
+
+#wrapper form #description p span{
+    font-size: 13px;
+    color: rgb(118, 118, 118);
+    font-weight: 100;
+}
+
+
+
+/* ------------------------REFERENCES --------------------*/
+
+#wrapper form #references > p{
+    font-size: 0.8125em;
+}
+
+#wrapper form #references{
+    margin-top: 14px;
+    font-weight: 600;
+}
+
+#wrapper form #references button{
+    margin-top: 14px;
+    background: none;
+    border: none;
+    color: rgb(17, 102, 187);
+    cursor: pointer;
+}
+
+#wrapper form #references button:hover{
+    color: brown;
+}
+
+#wrapper form #references #hidden-panel{
+    margin-top: 14px;
+    width: 364px;
+    height: 222px;
+    padding: 10px;
+    background-color: rgb(232, 246, 248);
+    position: relative;
+}
+
+#wrapper form #references #hidden-panel legend{
+    font-weight: 100;
+    font-size: 0.8125em;
+}
+
+#wrapper form #references #hidden-panel button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+}
+
+#wrapper form #references #hidden-panel h4{
+    color: red;
+    font-size: 0.8125em;
+    width: 100%;
+    font-weight: 100;
+}
+
+
+/* -----------------------------ASSIGN */
+#wrapper form #assign label > p{
+    font-size: 0.8125em;
+}
+
+#wrapper form #assign{
+    margin-top: 26px;
+    text-decoration: none;
+}
+
+#wrapper form #assign label > button{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid black;
+    height: 36px;
+    margin-top: 14px;
+    font-size: 0.8125rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+#wrapper form #assign button{
+    background: none;
+    border: none;
+}
+
+/* ----------------------------SCHEDULE DATE AND TIME */
+
+#wrapper form #schedule label p{
+    font-size: 0.8125em;
+}
+
+#wrapper form #schedule{
+    margin-top: 26px;
+}
+
+#wrapper form #schedule #time > p,
+#wrapper form #schedule #date > p{
+    font-size: small;
+    color: rgb(85, 85, 85);
+}
+
+
+#wrapper form #schedule #time label,
+#wrapper form #schedule #date label{
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+
+#wrapper form #schedule label p span{
+    font-size: 13px;
+    color: rgb(118, 118, 118);
+    font-weight: 100;
+}
+
+#wrapper form #schedule #time,
+#wrapper form #schedule #date{
+    margin-top: 14px;
+
+}
+
+/* ------------------DATE */
+
+#wrapper form #schedule #date label > div{
+    width: 95%;
+}
+
+/* ------------------TIME*/
+
+#wrapper form #schedule #time div{
+    display: flex;
+    margin-top: 5px;
+
+}
+
+#wrapper form #schedule #time #hour{
+    width: 42px;
+    margin-right: 8px;
+    border-bottom: 1px solid black;
+}
+#wrapper form #schedule #time #hour input{
+    width: 16px;
+    height: 24px;
+    background: none;
+    border: none;
+}
+
+
+#wrapper form #schedule #time #session{
+    width: 70px;
+    margin-right: 8px;
+    border-bottom: 1px solid black;
+}
+
+#wrapper form #schedule #time #time-zone{
+    width: 237px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+#wrapper form #schedule #time #session button,
+#wrapper form #schedule #time #time-zone button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    height: 32px;
+}
+
+
+/* ----------------------------------FEATURE BTN*/
+
+
+#wrapper form #calendar-feature-btn{
+    width: 364px;
+    margin: 26px 0px 26px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#wrapper form #calendar-feature-btn button{
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#wrapper form #calendar-feature-btn button:last-child{
+    background-color: rgb(7, 115, 152);
+    color: white;
+    border: none;
+}
+
+/* ----------------------------------Calendar */
+#calendar > div:first-child{
+    display: flex;
+    justify-content: end;
+    padding: 10px 10px 10px 0px;
+}
+
+#calendar{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 336px;
+    height: 340px;
+}
+
+#calendar .header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#calendar table{
+    margin: auto;
+}
+
+#calendar td{
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+
+#calendar button{
+    background: none;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#calendar .current-day {
+    background-color: rgb(55, 127, 155);
+    color: white;
+  }
+  
+
+/* --------------------------RESPONSIVE */
+
+@media screen and (max-width:576px) {
+    #wrapper form,
+    #wrapper form #calendar-feature-btn{
+        width: 100%;
+    }
+}

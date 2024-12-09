@@ -1,0 +1,59 @@
+#connecting-nav{
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 0px 10px;
+}
+
+#connecting-nav p{
+    color: white;
+}
+
+#connecting-nav > div:first-child > div:last-child{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+#connecting-nav > div:first-child > div:last-child svg{
+    margin-right: 5px;
+}
+
+#connecting-nav #state-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#connecting-btn{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+
+#connecting-btn #end-call{
+    width: 260px;
+    height: 36px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+#connecting-btn #end-call svg{
+    margin-right: 12px;
+}

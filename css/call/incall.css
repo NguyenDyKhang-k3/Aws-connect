@@ -1,0 +1,116 @@
+/* ---------------------------------------------Nav */
+
+#incall-nav{
+    height: 51px;
+    background-color: rgb(11, 122, 150);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 0px 10px;
+
+}
+
+#incall-nav p{
+    color: white;
+}
+
+#incall-nav > div:first-child > div:last-child{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+#incall-nav > div:first-child > div:last-child svg{
+    margin-right: 5px;
+}
+
+#incall-nav #state-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* --------------------------------End Call button */
+#incall-btn{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+#incall-btn #end-call{
+    width: 260px;
+    height: 36px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+#incall-btn #end-call svg{
+    margin-right: 12px;
+}
+
+/* -------------------------------------FEATURE */
+
+#incall-feature{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 460px;
+}
+
+#incall-feature > div:first-child{
+    display: flex;
+}
+
+#incall-feature button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.74);
+}
+
+#incall-feature button svg{
+    margin-right: 12px;
+}
+
+#incall-feature #hold{
+    margin-right: 10%;
+}
+
+#incall-feature #hold, #incall-feature #mute{
+    width: 45%;
+    height: 36px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#incall-feature #pad, #incall-feature #q-connect, #incall-feature #c-task{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+/* ------------------------------RESPONSIVE */
+@media screen and (max-width: 576px){
+    #incall-feature{
+        width: 90%;
+    }
+
+}
+

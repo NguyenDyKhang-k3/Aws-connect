@@ -1,0 +1,103 @@
+/* ---------------------------------------------Nav */
+
+#reject-nav{
+    height: 51px;
+    background-color: #D0021B;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+#reject-nav p{
+    color: white;
+}
+#reject-nav > div:first-child > div:last-child,
+#reject-nav > div:first-child > p{
+    padding: 5px 0px 0px 10px;
+}
+#reject-nav > div:first-child > div:last-child{
+    display: flex;
+    align-items: center;
+}
+
+#reject-nav > div:first-child > div:last-child svg{
+    margin-right: 5px;
+}
+
+#reject-nav #state-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8125rem;
+    font-weight: 200;
+}
+
+#reject-nav #state-wrapper #state{
+    display: flex;
+    align-items: center;
+}
+#reject-nav #state-wrapper #state svg{
+    padding-right: 6px;
+}
+
+#reject-nav #announce{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #D0021B;
+    padding: 10px 14px 10px 14px;
+}
+#reject-nav #announce > div:first-child{
+    margin-right: 10px;
+}
+
+#reject-nav #announce #message{
+    width: calc(100% - 30px)
+}
+
+#reject-nav #announce #message > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    
+}
+
+#reject-nav #announce #message > div:first-child button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* --------------------------------End Call button */
+#reject-btn{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reject-btn #end-call{
+    width: 260px;
+    height: 36px;
+    border: none;
+    color: white;
+    background-color: rgb(7, 115, 152);
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#reject-btn #end-call svg{
+    margin-right: 10px;
+}
+
+

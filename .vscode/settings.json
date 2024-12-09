@@ -3,10 +3,4 @@
   "liveServer.settings.port": 5505,
   "liveServer.settings.root": "/",
   "liveServer.settings.CustomBrowser": "chrome",
-  // "liveServer.settings.https": {
-  //     "enable": true,
-  //     "cert": "D:/IDB/CTI_API/aws-connect/localhost.pem",
-  //     "key": "D:/IDB/CTI_API/aws-connect/localhost.key",
-  //     "passphrase": "123456"
-  // }
 }

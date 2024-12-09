@@ -19,7 +19,7 @@ export var PhoneEvent = {
   MakeCall(PhoneNumber) {
     console.log("MakeCall called:");
     console.log(`PhoneNumber: ${PhoneNumber}`);
-    sipCall("call-audio", PhoneNumber);
+    // sipCall("call-audio", PhoneNumber);
   },
 
   // Đang gọi điện thoại
@@ -131,7 +131,6 @@ window.addEventListener(
 
 window.onload = function () {
   //   HideAll();
-  audioRemote = document.getElementById("audio_remote");
 
   SIPml.setDebugLevel("error");
   //   if (PrivateIdentity.length > 2) {
@@ -190,8 +189,9 @@ var oSipStack, oSipSessionRegister, oSipSessionCall, oSipSessionTransferCall;
  */
 var videoRemote, videoLocal, audioRemote;
 var viewVideoLocal, viewVideoRemote, viewLocalScreencast;
+
 var oConfigCall = {
-  audio_remote: audioRemote,
+  audio_remote: document.getElementById("audio_remote"),
   video_local: viewVideoLocal,
   video_remote: viewVideoRemote,
   screencast_window_id: 0x00000000, // entire desktop
